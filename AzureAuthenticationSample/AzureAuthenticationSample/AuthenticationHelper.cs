@@ -21,7 +21,9 @@ namespace AzureAuthenticationSample
     {
         /// <summary>
         /// Method 1 - Fetches the Azure Authentication Token From Azure Active Directory by Prompting the end user for authentication credentials
-        /// Note: This is the only authentication method which requires manual user intervention
+        /// Note 1: This is the only authentication method which requires manual user intervention.
+        /// Note 2: For this to work follow the instructions in this link and create a Service Principal before executing this method: 
+        /// https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/
         /// This same method is provided with the samples like Azure Billing Usage and RateCard samples
         /// </summary>
         /// <param name="ADALServiceURL">Service root URL for ADAL authentication service WITH NO TRAILING SLASH!</param>
@@ -53,10 +55,9 @@ namespace AzureAuthenticationSample
         /// </summary>
         /// <param name="TenanatID">Tenanat ID from your Azure Subscription</param>
         /// <param name="ClientID">GUID for AAD application configured as Native Client App in AAD tenant specified above</param>
-        /// <param name="UserName">User Name</param>
-        /// <param name="Password">Password</param>
+        /// <param name="Password">Password configured for Service Principal</param>
         /// <returns>Authentication Token</returns>
-        public string GetOAuthTokenFromAAD_ByCredentials(string TenanatID, string ClientID, string UserName, string Password)
+        public string GetOAuthTokenFromAAD_ByCredentials(string TenanatID, string ClientID, string Password)
         {
             //Creating the variable for result
             string token = string.Empty;

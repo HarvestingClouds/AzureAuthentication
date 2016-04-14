@@ -18,7 +18,7 @@ namespace AzureAuthenticationSample
     {
         string GetOAuthTokenFromAAD_ByPrompting(string ADALServiceURL, string TenantDomain, string ARMBillingServiceURL, string ClientID, string ADALRedirectURL);
 
-        string GetOAuthTokenFromAAD_ByCredentials(string TenanatID, string ClientID, string UserName, string Password);
+        string GetOAuthTokenFromAAD_ByCredentials(string TenanatID, string ClientID, string Password);
 
         string GetOAuthTokenFromAAD_ByCertificate(string TenanatID, string ClientID, string CertificateName);
     }

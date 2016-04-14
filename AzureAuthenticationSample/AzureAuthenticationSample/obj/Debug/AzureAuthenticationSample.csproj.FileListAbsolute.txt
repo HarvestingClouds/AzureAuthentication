@@ -1,2 +1,11 @@
 C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\AzureAuthenticationSample.exe.config
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\AzureAuthenticationSample.exe
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\AzureAuthenticationSample.pdb
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\obj\Debug\AzureAuthenticationSample.exe
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\obj\Debug\AzureAuthenticationSample.pdb
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.pdb
 C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\obj\Debug\AzureAuthenticationSample.csprojResolveAssemblyReference.cache

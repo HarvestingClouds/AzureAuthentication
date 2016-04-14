@@ -27,7 +27,6 @@ namespace AzureAuthenticationSample
             string TenantID = ConfigurationManager.AppSettings["TenantID"];
 
             //Configuration Needed for Method 2 only
-            string Username = ConfigurationManager.AppSettings["Username"];
             string Password = ConfigurationManager.AppSettings["Password"];
 
             //Configuration Needed for Method 3 only
@@ -39,22 +38,27 @@ namespace AzureAuthenticationSample
             AuthenticationHelper authHelperObject = new AuthenticationHelper();
 
             //Method 1 Invocation
-            string token1 = authHelperObject.GetOAuthTokenFromAAD_ByPrompting(ADALServiceURL, TenantDomain, ARMBillingServiceURL, ClientID, ADALRedirectURL);
+            string token1 = string.Empty;
+            token1 = authHelperObject.GetOAuthTokenFromAAD_ByPrompting(ADALServiceURL, TenantDomain, ARMBillingServiceURL, ClientID, ADALRedirectURL);
             Console.WriteLine("The Authentication token from first method i.e. by prompting is: ");
             Console.WriteLine(token1);
             Console.WriteLine();
 
             //Method 2 Invocation
-            string token2 = authHelperObject.GetOAuthTokenFromAAD_ByCredentials(TenantID, ClientID, Username, Password);
+            string token2 = string.Empty;
+            token2 = authHelperObject.GetOAuthTokenFromAAD_ByCredentials(TenantID, ClientID, Password);
             Console.WriteLine("The Authentication token from second method i.e. by crednetial is: ");
             Console.WriteLine(token2);
             Console.WriteLine();
 
             //Method 3 Invocation
-            string token3 = authHelperObject.GetOAuthTokenFromAAD_ByPrompting(ADALServiceURL, TenantDomain, ARMBillingServiceURL, ClientID, ADALRedirectURL);
+            string token3 = string.Empty;
+            token3 = authHelperObject.GetOAuthTokenFromAAD_ByCertificate(TenantID, ClientID, CertificateName);
             Console.WriteLine("The Authentication token from third method i.e. by certificate is: ");
             Console.WriteLine(token3);
             Console.WriteLine();
+
+            Console.ReadLine();
             #endregion
 
         }
