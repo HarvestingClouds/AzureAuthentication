@@ -1,1 +1,2 @@
 C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\bin\Debug\AzureAuthenticationSample.exe.config
+C:\Users\aman.sharma\Documents\GitHub\AzureAuthentication\AzureAuthenticationSample\AzureAuthenticationSample\obj\Debug\AzureAuthenticationSample.csprojResolveAssemblyReference.cache

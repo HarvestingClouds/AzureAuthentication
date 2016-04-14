@@ -16,10 +16,10 @@ namespace AzureAuthenticationSample
 {
     interface IAuthenticationHelper
     {
-        string GetOAuthTokenFromAAD_ByPrompting();
+        string GetOAuthTokenFromAAD_ByPrompting(string ADALServiceURL, string TenantDomain, string ARMBillingServiceURL, string ClientID, string ADALRedirectURL);
 
-        string GetOAuthTokenFromAAD_ByCredentials();
+        string GetOAuthTokenFromAAD_ByCredentials(string TenanatID, string ClientID, string UserName, string Password);
 
-        string GetOAuthTokenFromAAD_ByCertificate(string SubscriptionId, string TenanatID, string ClientID);
+        string GetOAuthTokenFromAAD_ByCertificate(string TenanatID, string ClientID, string CertificateName);
     }
 }
