@@ -13,6 +13,8 @@ Download and feel free to use the AuthenticationHelper class directly in your pr
 
 ####Below are the details regarding the implementation
 
+**Note:** You will need only one of these three methods in your project to authenticate any kind of request to Azure.
+
  1. **Method 1 - Authenticating by Prompting for Credentials from end user** (needs user interaction)
 
 This method fetches the Azure Authentication Token From Azure Active Directory by Prompting the end user for authentication credentials. This is the only authentication method which requires manual user intervention. For this to work follow the instructions in this link and create a Service Principal before executing this method: [Create Active Directory application and service principal using portal](https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/){:target="_blank"}
