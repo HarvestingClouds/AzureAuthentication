@@ -1,4 +1,4 @@
-# AzureAuthentication
+# Azure Authentication (Authenticating any Azure API request in your application)
 
 This is a code sample to showcase how you can authenticate your request programatically with Azure.
 ### The authentication methods available are:
