@@ -27,4 +27,4 @@ This method fetches the Azure Authentication Token From Azure Active Directory u
 
 This method fetches the Azure Authentication Token From Azure Active Directory using a Certificate. For this method to work follow the section "Authenticate with certificate - PowerShell" from the below URL: [Authenticating a service principal with Azure Resource Manager](https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/){:target="_blank"}
 
-Check the comments for each method in the AuthenticationHelper.cs file, to check the details regarding inputs and outputs.
+Check the comments for each method in the AuthenticationHelper.cs file, to read on details regarding inputs and outputs for each of these methods.
