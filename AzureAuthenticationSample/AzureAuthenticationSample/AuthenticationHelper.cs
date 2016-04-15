@@ -20,7 +20,7 @@ namespace AzureAuthenticationSample
     public class AuthenticationHelper : IAuthenticationHelper
     {
         /// <summary>
-        /// Method 1 - Fetches the Azure Authentication Token From Azure Active Directory by Prompting the end user for authentication credentials
+        /// Method 1 - Fetches the Azure Authentication Token From Azure Active Directory (AAD) by Prompting the end user for authentication credentials
         /// Note 1: This is the only authentication method which requires manual user intervention.
         /// Note 2: For this to work follow the instructions in this link and create a Service Principal before executing this method: 
         /// https://azure.microsoft.com/en-us/documentation/articles/resource-group-create-service-principal-portal/
@@ -49,7 +49,7 @@ namespace AzureAuthenticationSample
         }
 
         /// <summary>
-        /// Method 2 - Fetches the Azure Authentication Token From Azure Active Directory using credentials
+        /// Method 2 - Fetches the Azure Authentication Token From Azure Active Directory (AAD) using credentials
         /// Note: For this method to work follow the section "Authenticate with password - PowerShell" from the below URL
         /// https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/
         /// </summary>
@@ -83,7 +83,7 @@ namespace AzureAuthenticationSample
         }
 
         /// <summary>
-        /// Method 3 - Fetches the Azure Authentication Token From Azure Active Directory using a Certificate
+        /// Method 3 - Fetches the Azure Authentication Token From Azure Active Directory (AAD) using a Certificate
         /// Note: For this method to work follow the section "Authenticate with certificate - PowerShell" from the below URL
         /// https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/
         /// </summary>
