@@ -10,7 +10,7 @@ This is a code sample to showcase how you can authenticate your request programa
 I have provided this functionality in a separate class file along with it's interface.
 Download and feel free to use the AuthenticationHelper class directly in your projects. Please keept the credits in the file.
 
-**Pre-Requisites**: Follow the corresponding steps from URL: https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/
+**Pre-Requisites**: Follow the corresponding steps from the below URL. Check the details in the following section. Link: https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/
 
 ####Below are the details regarding the implementation
 
