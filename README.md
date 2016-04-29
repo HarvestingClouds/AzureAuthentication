@@ -2,7 +2,7 @@
 
 This is code sample to showcase how you can authenticate your request programatically with Azure in various ways. This also contains **a Reusable Authentication Helper class** which you can directly use in your code.
 
-### The authentication methods available are:-
+### The authentication methods available are:
  - Authenticating by **Prompting** for Credentials from end user. (This needs end user interaction)
  - Authenticating by **Credentials** i.e. using a password. (This does not need any end user interaction)
  - Authenticating by using a **Certificate** ( This also does not need any end user interaction)
